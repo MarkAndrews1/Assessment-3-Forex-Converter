@@ -1,0 +1,33 @@
+body{
+    background-color: whitesmoke;
+}
+
+button {
+    background-color: rgb(255, 210, 126);
+    border-radius: 10px;
+    border-style: none;
+    font-size: large
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(255, 230, 184);
+}
+
+button:focus{
+    background-color: rgb(255, 239, 239);
+}
+
+.inputs {
+    font-size: large;
+}
+
+#container {
+    background-color: rgba(255, 241, 216, 0.37);
+    border: 5px solid  orange;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 50px;
+    width: 20%;
+    padding: 10px;
+}
